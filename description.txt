@@ -1,0 +1,40 @@
+Time provided: about 48-72 hours (if they ask for CSS, maybe more)
+
+You're going to fetch data from this REST API:
+
+https://jsonplaceholder.typicode.com/
+
+Your front-end must allow the following actions:
+
+* List all the posts ( https://jsonplaceholder.typicode.com/posts )
+* Create a post
+* Update a post
+* Delete a post
+
+This assignment involves multiple front-end concepts, among which:
+* API call (I'll recommend you use Fetch API (don't need to install a library).
+    You can use Axios, but I recommend you use Fetch.)
+* Routing: Routing is optional in this exercise as everything can be done in a single page
+* State management: pure React, not Redux
+* Styling: CSS is not the main focus of the exercise so you don't need to spend time styling
+* You're not allowed to use a React form library (Formik, etc.)
+
+Such development aims at being the MVP of a growing application: scalability is an appreciated point
+
+**Hint:
+
+*The hardest part of the challenge is to edit a post. You might need to use 
+    a spread operator in order to be able to edit an array of objects
+
+*I suggest you use useState, and not useReducer. Keep things simple.
+
+* Don't forget to use try/catch when fetching data
+
+* Always check if the component is mounted before you set the state
+
+[
+    This article is basically the answer:
+    https://www.robinwieruch.de/react-hooks-fetch-data
+]
+
+Also see: React Training hooks course videos  33 - 34
